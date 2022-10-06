@@ -1,0 +1,53 @@
+.body{
+  background-color: crimson;
+  
+}
+
+html{
+  font-family: Georgia, serif;
+}
+
+.h1 {
+  color: white;
+  text-align: center;
+
+}
+
+.h2 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.p {
+  color: white;
+  text-align: wrap;
+  font-size: 22px;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+ background-color: white;
+justify-content: space-evenly;}
+
+}
+
+
+
+.maincontainer > div {
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 18px;
+  margin-bottom: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-top: 10px;
+    background-color: white;
+    border-color: black;
+    border: 2px solid;
+}
+
